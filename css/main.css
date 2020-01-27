@@ -1,0 +1,258 @@
+body {
+    background-color: #F4F4F4;
+}
+
+#top-nav {
+    background-color: #FFFFFF;
+    height: 126px;
+    width: 100%;
+}
+
+#nav-logo {
+    height: 79px;
+    width: 291px;
+    margin-left: 101px;
+    margin-top: 20px;
+}
+
+#contact-menu ul {
+    line-height: 13px;
+    font-size: 13px;
+    color: #6E6E6E;
+    margin-top: 15px;
+    margin-right: 80px;
+    margin-bottom: -25px;
+}
+
+#main-menu {
+    height: 80px;
+}
+
+#main-menu ul {
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+#main-menu ul a {
+    color: #6E6E6E;
+}
+
+#carouselExampleIndicators img {
+    height: 612px;
+    opacity: 0.75;
+}
+
+.carousel-caption {
+    margin-bottom: 180px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+.carousel-caption h3 {
+	color: #EED520;
+	font-family: ".SF NS Display";
+    font-size: 28px;
+    font-weight: bold;
+	letter-spacing: 1.17px;
+	line-height: 56px;
+	text-align: center;
+}
+
+.carousel-caption h1 {
+	color: #FFFFFF;
+	font-family: ".SF NS Display";
+    font-size: 70px;
+    font-weight: bold;
+	letter-spacing: 2.5px;
+	line-height: 63px;
+	text-align: center;
+}
+
+.carousel-caption h5 {
+	color: #FFFFFF;
+	font-family: ".SF NS Display";
+	font-size: 20px;
+	letter-spacing: 0.75px;
+	line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-caption a {   
+	height: 63px;
+    width: 222px;
+    font-size: 20px;
+    padding-top: 22px;
+    margin-top: 20px;
+}
+
+.btn-success {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border-radius: 40px;
+}
+
+#hot-news {
+    background-color: #F4F4F4;
+}
+
+#hot-news-title h1 {
+    margin-top: 120px;
+    margin-bottom: 30px;
+	color: rgb(53, 224, 67);
+	font-family: ".SF NS Display";
+    font-size: 50px;
+    font-weight: bold;
+	letter-spacing: 1.67px;
+	line-height: 43px;
+	text-align: center;
+}
+
+#hot-news-cards {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#hot-news-cards .card {
+    height: 470px;
+}
+
+#hot-news-cards .card h3 {
+    color: #232323;
+    font-family: ".SF NS Display";
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.83px;
+    line-height: 29px;
+}
+
+#hot-news-cards .card p {
+    color: #1E1E1E;	
+    font-family: ".SF NS Display";	
+    font-size: 18px;	
+    letter-spacing: 0.62px;	
+    line-height: 21px;
+}
+
+#hot-news-more a {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-top: 40px;
+}
+
+#stories-container {
+    margin-top: 120px;
+    margin-left: 115px;
+    margin-right: 115px;
+    background-image: url("../img/Home/bg-chiasehay.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    height: 550px;
+}
+
+#stories-container figure img {
+    width: 300px;
+    height: 300px;
+}
+
+#stories-container figure h3 {
+    color: #FFFFFF;
+    font-family: ".SF NS Display";
+    font-size: 30px;
+    letter-spacing: 1.04px;
+    line-height: 43px;
+    margin-top: 15px;
+}
+
+#stories-container figure h5 {
+    color: #B8B8B8;	
+    font-family: ".SF NS Display";	
+    font-size: 17px;	
+    letter-spacing: 0.62px;	
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+#stories-container .jumbotron {
+    background: transparent;
+}
+
+#stories-container .jumbotron h1 {
+    color: #EED520;
+    font-family: ".SF NS Display";
+    font-size: 35px;
+    letter-spacing: 1.17px;
+    line-height: 43px;
+}
+
+#stories-container .jumbotron p {
+    color: #FFFFFF;
+    font-family: ".SF NS Display";
+    font-size: 20px;
+    letter-spacing: 0.62px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+#oversea-tips-pagination {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#oversea-tips-pagination .page-link {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #5A4181;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: rgb(53, 224, 67);
+    border-color: rgb(53, 224, 67);
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: rgb(53, 224, 67) !Important;
+    border: solid 1px rgb(53, 224, 67) !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: rgb(53, 224, 67) !Important;
+    border: solid 1px rgb(53, 224, 67);
+    color: white;
+}
+
+#youtube-videos {
+    margin-top: 120px;
+}
+
+#youtube-videos .embed-responsive {
+    margin-left: 115px;
+    margin-right: 115px;
+    height: 512px;
+}
