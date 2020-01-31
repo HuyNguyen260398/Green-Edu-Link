@@ -256,3 +256,8 @@ body {
     margin-right: 115px;
     height: 512px;
 }
+
+#pics-container {
+    margin-left: 115px;
+    margin-right: 115px;
+}
