@@ -257,7 +257,16 @@ body {
     height: 512px;
 }
 
-#pics-container {
+#picss-container {
     margin-left: 115px;
     margin-right: 115px;
+}
+
+#pics-container {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#pics-container img {
+    margin-bottom: 50px;
 }
