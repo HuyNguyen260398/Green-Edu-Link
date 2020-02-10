@@ -270,3 +270,9 @@ body {
 #pics-container img {
     margin-bottom: 50px;
 }
+
+#partners-container {
+    margin-left: 115px;
+    margin-right: 115px;
+    border: 2px solid red;
+}
