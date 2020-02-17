@@ -255,6 +255,20 @@ body {
     margin-left: 115px;
     margin-right: 115px;
     height: 512px;
+    border-radius: 25px;
+}
+
+#partners-container {
+    margin-left: 115px;
+    margin-right: 115px;
+    border-radius: 25px;
+    background-color: white;
+
+}
+
+#partners-container img {
+    width: 200px;
+    height: 200px;
 }
 
 #picss-container {
@@ -267,12 +281,8 @@ body {
     margin-right: 70px;
 }
 
-#pics-container img {
-    margin-bottom: 50px;
-}
-
-#partners-container {
-    margin-left: 115px;
-    margin-right: 115px;
-    border: 2px solid red;
+#info-container {
+    height: 400px;
+    background-color:  rgb(53, 224, 67);
+    margin-top: 120px;
 }
