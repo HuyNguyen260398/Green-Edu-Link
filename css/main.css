@@ -296,6 +296,7 @@ body {
 
 #info-container table p {
     margin-left: 20px;
+    font-weight: 500;
 }
 
 #info-container ul {
@@ -307,6 +308,11 @@ body {
 #info-container ul a {
     text-decoration: none;
     color: black;
+    font-weight: 500;
+}
+
+#info-container ul a:hover {
+    color: white;
 }
 
 #info-container ul li {
