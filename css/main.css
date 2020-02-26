@@ -313,8 +313,22 @@ body {
 
 #info-container ul a:hover {
     color: white;
+    transition-duration: 0.5s;
 }
 
 #info-container ul li {
     margin-bottom: 10px;
+}
+
+
+#info-container img {
+    opacity: 1.0;
+    filter:alpha(opacity=40);
+}
+
+
+#info-container img:hover {
+    opacity: 0.5;
+    filter:alpha(opacity=100);
+    transition-duration: 0.5s;
 }
