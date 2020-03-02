@@ -332,3 +332,50 @@ body {
     filter:alpha(opacity=100);
     transition-duration: 0.5s;
 }
+
+#our-services {
+    background-color: #F4F4F4;
+}
+
+#our-services-title h1 {
+    margin-top: 120px;
+    margin-bottom: 30px;
+	color: rgb(53, 224, 67);
+	font-family: ".SF NS Display";
+    font-size: 50px;
+    font-weight: bold;
+	letter-spacing: 1.67px;
+	line-height: 43px;
+	text-align: center;
+}
+
+#our-services-cards {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#our-services-cards .card {
+    height: 470px;
+}
+
+#our-services-cards .card h3 {
+    color: #232323;
+    font-family: ".SF NS Display";
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.83px;
+    line-height: 29px;
+}
+
+#our-services-cards .card p {
+    color: #1E1E1E;	
+    font-family: ".SF NS Display";	
+    font-size: 18px;	
+    letter-spacing: 0.62px;	
+    line-height: 21px;
+}
+
+/* #our-services-cards img {
+    width: 250px;
+    height: 150px;
+} */
