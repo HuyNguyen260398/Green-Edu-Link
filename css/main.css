@@ -154,7 +154,9 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 25px;
-    height: 550px;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 #stories-container figure img {
@@ -163,7 +165,7 @@ body {
 }
 
 #stories-container figure h3 {
-    color: #FFFFFF;
+    color: #EED520;
     font-family: ".SF NS Display";
     font-size: 30px;
     letter-spacing: 1.04px;
@@ -172,7 +174,7 @@ body {
 }
 
 #stories-container figure h5 {
-    color: #B8B8B8;	
+    color: #FFFFFF;
     font-family: ".SF NS Display";	
     font-size: 17px;	
     letter-spacing: 0.62px;	
@@ -389,4 +391,8 @@ body {
     align-self: center;
     width: 250px;
     height: 150px;
+}
+
+#our-vision {
+    margin-top: 150px;
 }
