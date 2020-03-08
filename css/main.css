@@ -41,7 +41,7 @@ body {
 }
 
 #carouselExampleIndicators img {
-    height: 612px;
+    height: 700px;
     opacity: 0.75;
 }
 
@@ -101,8 +101,8 @@ body {
 }
 
 #hot-news-title h1 {
-    margin-top: 120px;
-    margin-bottom: 30px;
+    margin-top: 200px;
+    margin-bottom: 70px;
 	color: rgb(53, 224, 67);
 	font-family: ".SF NS Display";
     font-size: 50px;
@@ -147,7 +147,7 @@ body {
 }
 
 #stories-container {
-    margin-top: 120px;
+    margin-top: 200px;
     margin-left: 115px;
     margin-right: 115px;
     background-image: url("../img/Home/bg-chiasehay.png");
@@ -250,7 +250,7 @@ body {
 }
 
 #youtube-videos {
-    margin-top: 120px;
+    margin-top: 200px;
 }
 
 #youtube-videos .embed-responsive {
@@ -265,7 +265,6 @@ body {
     margin-right: 115px;
     border-radius: 25px;
     background-color: white;
-
 }
 
 #partners-container img {
@@ -281,7 +280,7 @@ body {
 #contact-info {
     height: 400px;
     background-color:  rgb(53, 224, 67);
-    margin-top: 120px;
+    margin-top: 200px;
 }
 
 #info-container {
@@ -340,7 +339,7 @@ body {
 }
 
 #our-services-title h1 {
-    margin-top: 120px;
+    margin-top: 200px;
     margin-bottom: 30px;
 	color: rgb(53, 224, 67);
 	font-family: ".SF NS Display";
@@ -393,6 +392,39 @@ body {
     height: 150px;
 }
 
-#our-vision {
-    margin-top: 150px;
+#about-banner img {
+    height: 500px;
+}
+
+#about-banner h1 {
+    vertical-align: top;
+}
+
+#start-journey-container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#start-journey-container .thumbnail {
+    position: relative;
+}
+
+#start-journey-container .caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1.25px;
+    line-height: 29px;
+    text-align: center;
+}
+
+#start-journey-container img {
+    width: 100%;
+    height: 300px;
+    opacity: 0.75;
 }
