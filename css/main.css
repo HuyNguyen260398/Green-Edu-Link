@@ -45,6 +45,13 @@ body {
     opacity: 0.75;
 }
 
+#carouselExampleIndicators .carousel-inner a:hover {
+    color: rgb(53, 224, 67);
+    background-color: white;
+    border: 2px solid rgb(53, 224, 67);
+    transition-duration: 0.3s;
+}
+
 .carousel-caption {
     margin-bottom: 180px;
     padding-bottom: 0%;
@@ -112,6 +119,18 @@ body {
 	text-align: center;
 }
 
+#hot-news-title h3 {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    color: gray;
+	font-family: ".SF NS Display";
+    font-size: 30px;
+    font-weight: bold;
+	letter-spacing: 1.67px;
+	line-height: 43px;
+	text-align: center;
+}
+
 #hot-news-cards {
     margin-right: 100px;
     margin-left: 100px;
@@ -149,6 +168,13 @@ body {
     font-size: 20px;
     padding-top: 15px;
     margin-top: 40px;
+}
+
+#hot-news-more a:hover {
+    color: rgb(53, 224, 67);
+    background-color: white;
+    border: 2px solid rgb(53, 224, 67);
+    transition-duration: 0.3s;
 }
 
 #stories-container {
@@ -261,7 +287,7 @@ body {
 #youtube-videos .embed-responsive {
     margin-left: 115px;
     margin-right: 115px;
-    height: 512px;
+    height: 700px;
     border-radius: 25px;
 }
 
@@ -398,11 +424,13 @@ body {
 }
 
 #about-banner img {
-    height: 500px;
+    height: 670px;
+    opacity: 0.95;
 }
 
 #about-banner h1 {
     vertical-align: top;
+    margin-top: -200px;
 }
 
 #start-journey-container {
@@ -496,14 +524,143 @@ body {
     background-color: #F7F7F7;
 }
 
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
+#search-box .input-group {
+    height: 70px;
+    margin-bottom: 50px;
+    margin-right: 120px;
+}
+
+#search-box .input-group button {
+    width: 70px;
+}
+
+.travel-carousel {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 200px;
+}
+
+.travel-carousel img {
+    border-radius: 50px;
+}
+
+.travel-carousel h1 {
+    color:  rgb(53, 224, 67);
+    margin-bottom: 20px;
+}
+
+.travel-carousel a {
+    margin-top: 50px;
+}
+
+#multi-item-example {
+    padding-bottom: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#multi-items-carousel-control {
+    width: 50px;
+    font-size: 50px;
+    color: rgb(53, 224, 67);
+}
+
+#multi-item-example .card-body {
+    background-color: rgb(53, 224, 67);
+}
+
+#multi-item-example .card-text {
     text-align: center;
-    pointer-events: none;
-    color: #aaa;
+    height: 63px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    letter-spacing: 0.62px;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+#multi-item-example .carousel-indicators li {
+    height: 10px;
+    width: 50px;
+    background-color: #FFFFFF;
+}
+
+#multi-item-example .carousel-indicators .active {
+    background-color: rgb(53, 224, 67);
+}
+
+#gg-map-iframe {
+    margin-left: 115px;
+    margin-right: 115px;
+    height: 512px;
+    border-radius: 25px;
+}
+
+#gg-map .embed-responsive {
+    margin-left: 115px;
+    margin-right: 115px;
+    height: 700px;
+    border-radius: 25px;
+}
+
+#contact-form-container {
+    margin: 50px 120px 0px 120px;
+}
+
+#contact-form-btn a {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-top: 40px;
+}
+
+#contact-form-btn a:hover {
+    color: rgb(53, 224, 67);
+    background-color: white;
+    border: 2px solid rgb(53, 224, 67);
+    transition-duration: 0.3s;
+}
+
+#FAQ-container {
+    margin: 0px 120px 0px 120px;
+}
+
+#FAQ-container p {
+    margin-right: 50px;
+}
+
+#subscribe-container {
+    margin: 0px 120px 0px 120px;
+    padding: 0px 300px 0px 300px;
+}
+
+#subscribe-container input {
+    border-radius: 25px 0px 0px 25px;
+    border: 2px solid rgb(53, 224, 67);
+    padding: 20px; 
+    height: 70px; 
+    font-size: 30px;
+}
+
+#subscribe-container button {
+    border-radius: 0px 25px 25px 0px;
+    border: 2px solid rgb(53, 224, 67);
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(53, 224, 67);
+    padding-right: 20px;
+    color: white;
+}
+
+#subscribe-container button:hover {
+    color: rgb(53, 224, 67);
+    background-color: white;
+    transition-duration: 0.3s;
 }
